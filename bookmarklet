@@ -1,0 +1,7 @@
+javascript:(function() {
+  var text = window.getSelection().toString();
+  var reversedText = text.split('').reverse().join('');
+  window.prompt('Copy to clipboard: Ctrl+C, Enter', reversedText);
+})();
+
+
